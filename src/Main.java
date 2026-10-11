@@ -13,7 +13,7 @@ public class Main {
 
         Person charlie = new Teacher("Charlie", "Lakeville");
 
-        john.say("Hello Alice, nice to meet you.");
+        john.say("Hello Alice, I'm currently at work.");
         alice.say("What do you do for a living?");
         john.say(john.tellUsWhatYouAre() + ", how about you?");
         alice.say(alice.tellUsWhatYouAre() + ".");
@@ -35,6 +35,6 @@ public class Main {
         john.say("Wait, who are you?");
 
         Person tom = new Teacher("Tom", "St. Paul");
-        tom.say("Hello!");
+        tom.say("Hello, John!");
     }
 }
