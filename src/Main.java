@@ -36,5 +36,7 @@ public class Main {
 
         Person tom = new Teacher("Tom", "St. Paul");
         tom.say("Hello, John!");
+        john.say("I'm deleting the conversation!");
+
     }
 }
